@@ -14,6 +14,7 @@ module.exports = (env, argv) => {
       historyApiFallback: true,
       port: 8080,
       open: true,
+      watchFiles: ['src/**/*.html']
     },
     entry: './src/index.js',
     module: {
